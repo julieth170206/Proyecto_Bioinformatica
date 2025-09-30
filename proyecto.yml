@@ -1,0 +1,23 @@
+name: proyecto
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - fastqc=0.12.*
+  - multiqc=1.22.*
+  - fastp=0.23.*
+  - trimmomatic=0.39
+  - art=2016.06.05
+  - badread=0.4.0
+  - spades
+  - quast
+  - samtools
+  - pigz
+  - gzip
+  - coreutils
+  - pandas
+  - qualimap
+  - bwa 
