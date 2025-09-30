@@ -12,7 +12,7 @@ spades.py \
     -o "${OUTA}"
 
 IN="data/trimmed"
-OUT="ensamblaje/spades/post_intento"
+OUT="ensamblaje/spades/post"
 mkdir -p "${OUT}"
 
 echo "Ejecutando Spades para post qc"
