@@ -2,30 +2,30 @@
 
 Proyecto
 
-|_ scripts (contiene todos los scripts)
+├── scripts (Contiene todos los scripts)
 
-|_ data (acá se encuentran los datos crudos recien descargados, y los datos déspues del trimming)
+├── data (Datos crudos y procesados)
 
-  |_ raw
+│ ├── raw (Datos recién descargados)
 
-  |_ trimmed
+│ └── trimmed (Datos después del trimming)
 
-|_ qc
+├── qc (Reportes de control de calidad)
 
-  |_ pre
+│ ├── pre
 
-  |_ fastp
+│ ├── fastp
 
-  |_ post
+│ ├── post
 
-  |_ quast
+│ ├── quast
 
-  |_ qualimap
+│ └── qualimap
 
-|_ ensamblaje
+├── ensamblaje (Resultados de ensamblaje)
 
-  |_ spades
+│ └── spades
 
-|_ mapeo
+└── mapeo (Archivos del proceso de mapeo)
 
-  |_ check (contiene todos los archivos .bam que van a crearse durante el proceso de indexando, ordenar y remover duplicados)
+└── check (Archivos .bam creados (indexado, ordenado, duplicados))
