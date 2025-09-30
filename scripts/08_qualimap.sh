@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-IN="mapeo_intento/check"
+IN="mapeo/check"
 OUT="qc/qualimap"
 mkdir -p "${OUT}"
 
